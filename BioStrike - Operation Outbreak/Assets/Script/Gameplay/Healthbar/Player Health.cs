@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Awake()
     {
-        healthBar = GetComponentInChildren<FloatingHealthBar>();
+        //healthBar = GetComponent<FloatingHealthBar>();
     }
     void Start()
     {
@@ -24,7 +24,7 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void OnCollisionEnter2D(Collision2D collision)
     {
-        healthBar.UpdateHealthBar(currentHealth, maxHealth);
+        //healthBar.UpdateHealthBar(currentHealth, maxHealth);
         if (collision.gameObject.tag == "enemy")
         {
             TakeDamage(5);
