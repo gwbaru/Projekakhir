@@ -10,6 +10,7 @@ public class Pausebtn : MonoBehaviour
 
     [SerializeField]
     private GameObject PlayScreen;
+
     public void PauseGame()
     {
         Time.timeScale = 0;

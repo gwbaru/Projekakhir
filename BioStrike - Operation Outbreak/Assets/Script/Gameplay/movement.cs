@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class movement : MonoBehaviour
 {
@@ -12,7 +13,6 @@ public class movement : MonoBehaviour
     public float jump;
     public bool isJumping;
     public Animator animator;
-
 
 
     [SerializeField]

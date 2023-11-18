@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public static event Action OnPlayerDeath;
     public int maxHealth = 100;
     public int currentHealth;
     public Healthbar healthbar;
@@ -27,7 +29,7 @@ public class PlayerHealth : MonoBehaviour
         //healthBar.UpdateHealthBar(currentHealth, maxHealth);
         if (collision.gameObject.tag == "enemy")
         {
-            TakeDamage(5);
+            TakeDamage(10);
         }
     }
 
@@ -37,6 +39,12 @@ public class PlayerHealth : MonoBehaviour
         
 
         healthbar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            Debug.Log("Kamu Kalah");
+            OnPlayerDeath?.Invoke();
+        }
     }
 
 }
