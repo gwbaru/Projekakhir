@@ -73,7 +73,8 @@ public class enemy : MonoBehaviour
             Debug.Log("enemy destroyed");
             Destroy(gameObject);
             AudioManagerLevel1.instance.PlaySFX("Edestroy");
-            
+            GameWin.instance.EnemyKilled();
         }
     }
+
 }

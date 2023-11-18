@@ -19,6 +19,8 @@ public class GameOver : MonoBehaviour
 
     public void EnableGameOverMenu()
     {
+        AudioManagerLevel1.instance.PlaySFX("Coin");
+        AudioManagerLevel1.instance.bgmSource.Stop();
         Time.timeScale = 0;
         LoseScreen.SetActive(true);
     }
