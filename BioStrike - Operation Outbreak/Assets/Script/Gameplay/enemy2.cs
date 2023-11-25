@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemy : MonoBehaviour
+public class enemy2 : MonoBehaviour
 {
     Transform target;
     public Transform borderCheck;
@@ -73,8 +73,7 @@ public class enemy : MonoBehaviour
             Debug.Log("enemy destroyed");
             Destroy(gameObject);
             AudioManagerLevel1.instance.PlaySFX("Edestroy");
-            GameWin.instance.NextWave1();
+            GameWin.instance.Win();
         }
     }
-
 }

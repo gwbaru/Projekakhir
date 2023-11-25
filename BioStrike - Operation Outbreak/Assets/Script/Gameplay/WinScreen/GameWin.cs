@@ -23,7 +23,7 @@ public class GameWin : MonoBehaviour
         }
     }
 
-    public void EnemyKilled()
+    public void Win()
     {
         enemiesKilled++;
 
@@ -34,10 +34,28 @@ public class GameWin : MonoBehaviour
             AudioManagerLevel1.instance.PlaySFX("Win");
         }
     }
+
+    public void NextWave1()
+    {
+        enemiesKilled++;
+
+        if (enemiesKilled == totalEnemies)
+        {
+            GoToNextWave();
+            AudioManagerLevel1.instance.bgmSource.Stop();
+            AudioManagerLevel1.instance.PlaySFX("Win");
+        }
+    }
     public void EnableWinMenu()
     {
         Time.timeScale = 0;
         WinScreen.SetActive(true);
+    }
+
+    public void GoToNextWave()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Level 1.1");
     }
 
 }
