@@ -13,6 +13,8 @@ public class movement : MonoBehaviour
     public float jump;
     public bool isJumping;
     public Animator animator;
+    public SpriteRenderer sprite;
+    private float horizontalInput;
 
 
     [SerializeField]
@@ -30,12 +32,34 @@ public class movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        sprite = GetComponentInChildren<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Move = Input.GetAxis("Horizontal");
+
+        animator.SetBool("isMoving", horizontalInput != 0);
+
+                //Flip animator sprite
+        if (Move > 0.1f)
+        {
+            sprite.flipX = false;
+            animator.SetBool("run player", true);
+        }
+
+        else if (Move< -0.1f)
+        {
+            sprite.flipX = true;
+            animator.SetBool("run player", true);
+        }
+
+        else
+        {
+            animator.SetBool("run player", false);
+        }
+    
         //Jump Button
        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && airCount < totalJump)
         {
