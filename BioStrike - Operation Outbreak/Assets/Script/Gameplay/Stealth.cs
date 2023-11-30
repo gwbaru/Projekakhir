@@ -48,4 +48,12 @@ public class Stealth : MonoBehaviour
 
         spriteRenderer.color = currentColor;
     }
+
+    public void GetDetected ()
+    {
+        isStealth = false;
+
+        // Panggil fungsi untuk mengubah keadaan stealth
+        SetStealth(isStealth);
+    }
 }

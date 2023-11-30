@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class movement : MonoBehaviour
 {
+    private float bulletSpawnPointX;
     public float playerMoveSpeed = 0f;
     private float Move;
     public Transform bulletSpawnPoint;
@@ -30,6 +31,7 @@ public class movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        bulletSpawnPointX = bulletSpawnPoint.localPosition.x;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
@@ -46,12 +48,14 @@ public class movement : MonoBehaviour
         if (Move > 0.1f)
         {
             sprite.flipX = false;
+            bulletSpawnPoint.localPosition = new Vector2(bulletSpawnPointX, bulletSpawnPoint.localPosition.y);
             animator.SetBool("run player", true);
         }
 
         else if (Move< -0.1f)
         {
             sprite.flipX = true;
+            bulletSpawnPoint.localPosition = new Vector2(bulletSpawnPointX*-1f, bulletSpawnPoint.localPosition.y);
             animator.SetBool("run player", true);
         }
 
@@ -93,9 +97,20 @@ public class movement : MonoBehaviour
         //Shooting Button
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            transform.Translate(Time.deltaTime*bulletSpeed*transform.right);
+
+            //transform.Translate(Time.deltaTime*bulletSpeed*transform.right);
             var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-            bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.right * bulletSpeed;
+            //Bullet _bullet = bullet.GetComponent<Bullet>();
+            //_bullet.speed = bulletSpeed;
+            if (sprite.flipX)
+            {
+                bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.right * -bulletSpeed;
+            }
+
+            if (!sprite.flipX)
+            {
+                bullet.GetComponent<Rigidbody2D>().velocity = bulletSpawnPoint.right * bulletSpeed;
+            }
             AudioManagerLevel1.instance.PlaySFX("Gun");
         }
     }
