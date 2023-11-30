@@ -28,6 +28,7 @@ public class AudioManagerLevel1 : MonoBehaviour
      void Start()
     {
         PlayBGM("Theme");
+        PlayBGM("Credit");
     }
 
     public void PlayBGM(string nama)
