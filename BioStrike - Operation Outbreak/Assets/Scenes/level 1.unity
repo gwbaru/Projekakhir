@@ -541,8 +541,8 @@ Transform:
   m_GameObject: {fileID: 92648779}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.8605, y: -2.4782, z: 0}
-  m_LocalScale: {x: 39.2511, y: 1.8365, z: 1}
+  m_LocalPosition: {x: 5.8605, y: -3, z: 0}
+  m_LocalScale: {x: 39.2511, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921310704}
@@ -1914,8 +1914,8 @@ Transform:
   m_GameObject: {fileID: 609389897}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.62, y: 8.6557, z: 0}
-  m_LocalScale: {x: 10.231028, y: 21.820988, z: 1}
+  m_LocalPosition: {x: 30.62, y: 7.5, z: 0}
+  m_LocalScale: {x: 10.231028, y: 24.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921310704}
@@ -7386,8 +7386,8 @@ Transform:
   m_GameObject: {fileID: 1642599648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.8286, y: 8.4834, z: 0}
-  m_LocalScale: {x: 10.231028, y: 22.135426, z: 1}
+  m_LocalPosition: {x: -18.8286, y: 7.5, z: 0}
+  m_LocalScale: {x: 10.231028, y: 24.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921310704}
@@ -7721,8 +7721,8 @@ Transform:
   m_GameObject: {fileID: 1725241139}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.91, y: 16.1351, z: 0}
-  m_LocalScale: {x: 39.2511, y: 15.470477, z: 1}
+  m_LocalPosition: {x: 5.91, y: 14.18, z: 0}
+  m_LocalScale: {x: 39.2511, y: 10.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921310704}
@@ -7812,7 +7812,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.16078432, g: 0.16470589, b: 0.16078432, a: 1}
   m_FlipX: 0
@@ -9086,6 +9086,7 @@ MonoBehaviour:
   jump: 0
   isJumping: 1
   animator: {fileID: 1298940782}
+  sprite: {fileID: 0}
   totalJump: 2
   airCount: 0
   JumpPower: 7
