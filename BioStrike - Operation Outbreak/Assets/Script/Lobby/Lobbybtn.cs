@@ -15,6 +15,14 @@ public class Lobbybtn : MonoBehaviour
     [SerializeField]
     private GameObject MoveSettingScreen;
 
+    [SerializeField]
+    private GameObject HannaStoryScreen;
+
+    [SerializeField]
+    private GameObject DrStoryScreen;
+
+    [SerializeField]
+    private GameObject WeaponStoryScreen;
 
     public void Start()
     {
@@ -42,6 +50,9 @@ public class Lobbybtn : MonoBehaviour
         LobbyScreen.SetActive(true);
         SoundSettingScreen.SetActive(false);
         MoveSettingScreen.SetActive(false);
+        HannaStoryScreen.SetActive(false);
+        DrStoryScreen.SetActive(false);
+        WeaponStoryScreen.SetActive(false);
         Time.timeScale = 1;
         AudioManagerLobby.instance.PlaySFX("UI");
     }
@@ -51,9 +62,12 @@ public class Lobbybtn : MonoBehaviour
         LobbyScreen.SetActive(false);
         SoundSettingScreen.SetActive(true);
         MoveSettingScreen.SetActive(false);
+        HannaStoryScreen.SetActive(false);
+        DrStoryScreen.SetActive(false);
+        WeaponStoryScreen.SetActive(false);
         Time.timeScale = 0;
-     //   AudioManagerLobby.instance.PlayBGM("Lobby");
         AudioManagerLobby.instance.PlaySFX("UI");
+        //AudioManagerLobby.instance.PlayBGM("Lobby");
     }
 
     public void MoveSetting()
@@ -61,9 +75,47 @@ public class Lobbybtn : MonoBehaviour
         LobbyScreen.SetActive(false);
         SoundSettingScreen.SetActive(false);
         MoveSettingScreen.SetActive(true);
+        HannaStoryScreen.SetActive(false);
+        DrStoryScreen.SetActive(false);
+        WeaponStoryScreen.SetActive(false);
         Time.timeScale = 0;
         AudioManagerLobby.instance.PlaySFX("UI");
     }
 
-    
+    public void StoryHanna()
+    {
+        LobbyScreen.SetActive(false);
+        SoundSettingScreen.SetActive(false);
+        MoveSettingScreen.SetActive(false);
+        HannaStoryScreen.SetActive(true);
+        DrStoryScreen.SetActive(false);
+        WeaponStoryScreen.SetActive(false);
+        Time.timeScale = 0;
+        AudioManagerLobby.instance.PlaySFX("UI");
+    }
+
+    public void StoryDr()
+    {
+        LobbyScreen.SetActive(false);
+        SoundSettingScreen.SetActive(false);
+        MoveSettingScreen.SetActive(false);
+        HannaStoryScreen.SetActive(false);
+        DrStoryScreen.SetActive(true);
+        WeaponStoryScreen.SetActive(false);
+        Time.timeScale = 0;
+        AudioManagerLobby.instance.PlaySFX("UI");
+    }
+
+    public void StoryWeapon()
+    {
+        LobbyScreen.SetActive(false);
+        SoundSettingScreen.SetActive(false);
+        MoveSettingScreen.SetActive(false);
+        HannaStoryScreen.SetActive(false);
+        DrStoryScreen.SetActive(false);
+        WeaponStoryScreen.SetActive(true);
+        Time.timeScale = 0;
+        AudioManagerLobby.instance.PlaySFX("UI");
+    }
+
 }
