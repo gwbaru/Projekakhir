@@ -34,7 +34,7 @@ public class Lobbybtn : MonoBehaviour
         Time.timeScale = 1;
         AudioManagerLobby.instance.bgmSource.Stop();
         AudioManagerLobby.instance.PlaySFX("UI");
-        SceneManager.LoadScene("CutSceneProlog");
+        SceneManager.LoadScene("DialogProlog");
     }
 
     public void GoToCredit()
