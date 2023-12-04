@@ -11,11 +11,15 @@ public class Pausebtn : MonoBehaviour
     [SerializeField]
     private GameObject PlayScreen;
 
+    [SerializeField]
+    private GameObject ControlScreen;
+
     public void PauseGame()
     {
         Time.timeScale = 0;
         PlayScreen.SetActive(false);
         PauseScreen.SetActive(true);
+        ControlScreen.SetActive(false);
         AudioManagerLevel1.instance.PlaySFX("Pause");
     }
 
@@ -24,6 +28,16 @@ public class Pausebtn : MonoBehaviour
         Time.timeScale = 1;
         PlayScreen.SetActive(true);
         PauseScreen.SetActive(false);
+        ControlScreen.SetActive(false);
+        AudioManagerLevel1.instance.PlaySFX("Pause");
+    }
+
+    public void GoToControlScreen()
+    {
+        Time.timeScale = 0;
+        PlayScreen.SetActive(false);
+        PauseScreen.SetActive(false);
+        ControlScreen.SetActive(true);
         AudioManagerLevel1.instance.PlaySFX("Pause");
     }
 
