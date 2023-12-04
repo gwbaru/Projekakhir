@@ -12,11 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/DialogProlog.unity
     guid: 6046847c96dbaea43b43b7e937bbf97d
   - enabled: 1
-    path: Assets/Scenes/level 1.1.unity
-    guid: a733838f48b59594abd2b1957c180ce3
-  - enabled: 1
     path: Assets/Scenes/level 1.unity
     guid: 9ba803ce8e5aa74499c69654219221d5
+  - enabled: 1
+    path: Assets/Scenes/DialogLevel.unity
+    guid: c022be2554ee61f4fafd9ed4b2bf502f
+  - enabled: 1
+    path: Assets/Scenes/level 1.1.unity
+    guid: a733838f48b59594abd2b1957c180ce3
   - enabled: 1
     path: Assets/Scenes/Credit.unity
     guid: d2def7e1210ec624db4c59e7241672c9

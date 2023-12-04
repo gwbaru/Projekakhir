@@ -55,7 +55,7 @@ public class GameWin : MonoBehaviour
     public void GoToNextWave()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Level 1.1");
+        SceneManager.LoadScene("DialogLevel");
     }
 
 }
