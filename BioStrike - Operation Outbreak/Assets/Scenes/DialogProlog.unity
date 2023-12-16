@@ -405,7 +405,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "AARRRGH... AARGGGH!!!! (Menyadari keberadaan si Agen)\r"
+  m_Text: AARRRGH... AARGGGH!!!! (Aware of Agent's presence)
 --- !u!222 &46703075
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fdf836de38111604bb1772fef521398b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb597adc609cedd41a1d718f5752a585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1326,7 +1326,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa62e93e645dc049b262498f8822ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b7f6fc0e0014e4aaf3109f09308d6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1639,9 +1639,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Akhirnya aku sampai di kota Paris Van Java. (Entah kenapa aku merasakan
-    firasat buruk) Aku harus segera mencari 3 tahanan tersebut sebelum ada hal aneh
-    terjadi!
+  m_Text: Finally I arrived in the city of Paris Van Java. (Somehow I have a bad
+    feeling) I have to quickly find the 3 prisoners before something strange happens!
 --- !u!222 &170048541
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1959,7 +1958,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fdf836de38111604bb1772fef521398b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb597adc609cedd41a1d718f5752a585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2147,7 +2146,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 342918b9e9d8b984ca61b2e29c0e3c0d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 22364240acef4c840a08214c52496756, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -2566,7 +2565,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 342918b9e9d8b984ca61b2e29c0e3c0d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 22364240acef4c840a08214c52496756, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -3062,7 +3061,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sampailah Agen Hanna di kota Paris Van Java
+  m_Text: Agent Hanna arrives in the city of Paris Van Java.
 --- !u!222 &292294000
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3812,7 +3811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa62e93e645dc049b262498f8822ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b7f6fc0e0014e4aaf3109f09308d6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4533,7 +4532,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa62e93e645dc049b262498f8822ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b7f6fc0e0014e4aaf3109f09308d6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4854,8 +4853,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pada malam itu, agen Hanna sedang menghadiri undangan pernikahan sahabatnya.
-    Namun tiba-tiba \n...."
+  m_Text: That night, agent Hanna was attending her best friend's wedding invitation.
+    But suddenly ....
 --- !u!222 &477122544
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5088,8 +5087,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dengan perasaan yang sedikit kesal, Agen Hanna pun segera berangkat ke
-    kota Paris Van Java untuk melakukan misi pengejaran 3 tahanan tersebut.
+  m_Text: Feeling a little annoyed, Agent Hanna immediately left for the city of
+    Paris Van Java to carry out a mission to chase down the 3 prisoners.
 --- !u!222 &508957439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5247,8 +5246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: T-tapi komandan, saya baru sedang dalam perjalanan untuk menghadiri acara
-    pernikahan sahabat saya.
+  m_Text: B-but commander, I was just on my way to attend my best friend's wedding.
 --- !u!222 &551852904
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5703,7 +5701,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fdf836de38111604bb1772fef521398b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb597adc609cedd41a1d718f5752a585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6067,7 +6065,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa62e93e645dc049b262498f8822ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b7f6fc0e0014e4aaf3109f09308d6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6155,7 +6153,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*dengan nada kesal "CEPAAAATLAH ATAU KITA AKAN KEHILANGAN JEJAK MEREKA!!!'
+  m_Text: '*in an annoyed tone "HURRY UP, OR WE LOSE THEIR TRACK!!!'
 --- !u!222 &637090544
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6640,7 +6638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8df468366334374792a13bb36efa69b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50b19a046f8b1934ba874d7213b94f4b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7392,7 +7390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35b2545cb0622e24d87358815b04f51f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 616a8e839c5689046b3ac01cbc52fdf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7679,7 +7677,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fdf836de38111604bb1772fef521398b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb597adc609cedd41a1d718f5752a585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8109,7 +8107,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 342918b9e9d8b984ca61b2e29c0e3c0d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 22364240acef4c840a08214c52496756, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -8252,7 +8250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8df468366334374792a13bb36efa69b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50b19a046f8b1934ba874d7213b94f4b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8340,7 +8338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cepat kejar para tahanan itu!
+  m_Text: Quickly chase the prisoners!
 --- !u!222 &1024534420
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8611,7 +8609,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35b2545cb0622e24d87358815b04f51f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 616a8e839c5689046b3ac01cbc52fdf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8977,7 +8975,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8df468366334374792a13bb36efa69b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 50b19a046f8b1934ba874d7213b94f4b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9185,7 +9183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa62e93e645dc049b262498f8822ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b7f6fc0e0014e4aaf3109f09308d6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9260,7 +9258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1aa62e93e645dc049b262498f8822ba8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73b7f6fc0e0014e4aaf3109f09308d6e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9348,7 +9346,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lalu?! *dengan nada mengejek
+  m_Text: Then?! *in a mocking tone.
 --- !u!222 &1141303217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9414,7 +9412,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a9b3f3f9fd44fde458150da1b9aeca6f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb10d2b193e9cb149b6f13aa538d9de5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9474,7 +9472,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 342918b9e9d8b984ca61b2e29c0e3c0d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 22364240acef4c840a08214c52496756, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -9670,8 +9668,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Telah terjadi insiden yang menyebabkan 3 tahanan di penjara sapal yang
-    kabur dan sedang mengarah ke kota Paris Van Java yang ada di sudut pulau Batavia
+  m_Text: An incident has occurred which has caused 3 inmates at Sapal prison to
+    escape and head towards the city of Paris Van Java which is at the corner of
+    Batavia Island.
 --- !u!222 &1170566073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10773,7 +10772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Saat agen Hanna sedang melihat keadaan sekitar tiba-tiba....\r"
+  m_Text: ' When agent Hanna was looking around suddenly...'
 --- !u!222 &1286935315
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11167,7 +11166,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35b2545cb0622e24d87358815b04f51f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 616a8e839c5689046b3ac01cbc52fdf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11321,7 +11320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fdf836de38111604bb1772fef521398b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb597adc609cedd41a1d718f5752a585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11409,7 +11408,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ( Klik dimana saja untuk memulai )
+  m_Text: ( CLICK ANYWHERE TO CONTINUE )
 --- !u!222 &1412651219
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11740,8 +11739,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Apa yang kulihat barusan!? Apa dia warga sini? Tapi kenapa orang itu terlihat
-    sangat mengerikan? Apa yang sebenernya terjadi di kota ini?
+  m_Text: What did I just see!? Is he a resident here? But why does that person look
+    so terrible? What really happened in this city?
 --- !u!222 &1459055228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12160,8 +12159,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Maaf agen Hanna, tapi kami memerlukan kamu dalam misi ini karena hanya
-    kamu yang dapat kami andalkan saat ini!
+  m_Text: Sorry agent Hanna, but we need you on this mission because you are the
+    only one we can rely on right now!
 --- !u!222 &1483510681
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12358,7 +12357,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*dengan nada kesal "Arrghhh berhentilah bermain-main!"'
+  m_Text: '*in an annoyed tone "Arrghhh stop messing around!"'
 --- !u!222 &1521815491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12503,7 +12502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 15e144de5f6347e49b011da78adfc66d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 766d145c4614d9b48ac63a4fcf5f9ec8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12572,7 +12571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Selamat malam agen Hanna!
+  m_Text: Good evening Agent Hanna!
 --- !u!222 &1552906692
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12923,7 +12922,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fdf836de38111604bb1772fef521398b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cb597adc609cedd41a1d718f5752a585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13701,8 +13700,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '*sigh.... Baiklah Pak! Tapi berjanjilah Pak, sehabis ini saya akan mendapatkan
-    cuti seminggu!'
+  m_Text: '*sigh.... OK sir! But promise me sir, after this I will get a week off!'
 --- !u!222 &1676603158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13821,7 +13819,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Selamat malam Pak Komandan! Kenapa tiba-tiba menelepon?
+  m_Text: Good evening Mr. Commander! Why did you suddenly call?
 --- !u!222 &1696032481
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13887,7 +13885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb4daca2da1c1ff4a85a0fc060cd7673, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 659094be719a93140b1369fc7ea6aaad, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14133,7 +14131,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hehe... baik komandan!
+  m_Text: Hehe... okay commander!
 --- !u!222 &1751263342
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14490,7 +14488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 15e144de5f6347e49b011da78adfc66d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 766d145c4614d9b48ac63a4fcf5f9ec8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14578,8 +14576,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SIAL!! Dia mengetahui keberadaanku dan membuat penyamaranku terbongkar!
-    Aku harus menghabisi mereka!
+  m_Text: F**K!! He found out where I was and blew my cover! I have to finish him
+    off!
 --- !u!222 &1809948151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15680,7 +15678,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35b2545cb0622e24d87358815b04f51f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 616a8e839c5689046b3ac01cbc52fdf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16829,7 +16827,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "APA ITU!! Sial aku harus segera sembunyi!\r"
+  m_Text: WHAT THE F**K!! D*mn, i have to hide quickly!
 --- !u!222 &2105100074
 CanvasRenderer:
   m_ObjectHideFlags: 0
