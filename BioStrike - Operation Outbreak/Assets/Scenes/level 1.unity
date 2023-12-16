@@ -3303,7 +3303,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1111998095}
         m_TargetAssemblyTypeName: Pausebtn, Assembly-CSharp
-        m_MethodName: GoToControlScreen
+        m_MethodName: GoToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
